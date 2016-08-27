@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE simplemind-mindmaps>
+
+<simplemind-mindmaps doc-version="3" generator="SimpleMindOSXN" gen-version="1.13.0">
+    <mindmap>
+        <meta>
+            <guid guid="54613FBD14C594792BD26DBE"></guid>
+            <title text="EncapsulatedEntireEnterprise"></title>
+            <style key="system.bright-palette"></style>
+            <auto-numbering style="disabled"></auto-numbering>
+            <scrollstate zoom="100" x="19.32" y="168.37"></scrollstate>
+            <main-centraltheme id="0"></main-centraltheme>
+        </meta>
+        <topics>
+            <topic id="0" parent="-1" guid="W5MA02ee_LxtVYKjMV15vA" x="400.00" y="400.00" palette="1" colorinfo="1" text=" EncapsulatedEntireEnterprise"></topic>
+            <topic id="1" parent="0" guid="Q7rz7zd5aehHAZjqKVWLog" x="439.52" y="331.54" palette="2" colorinfo="2" text="Existing Products\Nand Services"></topic>
+            <topic id="2" parent="1" guid="O6Zv9mJ80cEf7kq6fy9Tew" x="449.72" y="225.49" text="AutoMate™ "></topic>
+            <topic id="3" parent="1" guid="VYk95mtkOj0iN1DHaPIWYA" x="546.54" y="247.08" text="Docker"></topic>
+            <topic id="4" parent="0" guid="bXN-YHeSJeQzunrzQG_IGw" x="639.04" y="389.97" palette="3" colorinfo="3" text="Standards"></topic>
+            <topic id="5" parent="4" guid="NQDl0zAHWwELgVqnCoojug" x="723.10" y="335.30" text="OMG-BPM-Plus"></topic>
+            <topic id="6" parent="4" guid="eEdmLAlGsxsUrlrgOsjxjw" x="715.48" y="444.74" text="XBRL"></topic>
+            <topic id="7" parent="0" guid="GF9SbiowwNwmo_-AAAo87A" x="491.22" y="452.67" palette="4" colorinfo="4" text="Law and Policy"></topic>
+            <topic id="8" parent="7" x="565.28" y="495.42" text="GPEA"></topic>
+            <topic id="9" parent="7" x="526.16" y="548.67" text="SEC-XBRL"></topic>
+            <topic id="10" parent="0" guid="fpIAmTtpk_kr3KqrWiUBbA" x="361.73" y="504.44" palette="5" colorinfo="5" text="Allies and Advocates"></topic>
+            <topic id="11" parent="10" guid="IwiQtRkyLU4LgnsoZsOEpA" x="410.55" y="599.25" text="DAOhub?"></topic>
+            <topic id="12" parent="10" guid="UKuXNlKEFBIQGRBHDFIHLA" x="327.71" y="559.66" text="Tim Hwang?"></topic>
+            <topic id="13" parent="0" guid="G2uVPi24q25zfDoaCN8Tng" x="172.87" y="306.81" palette="6" colorinfo="6" text="Automated Credit Union"></topic>
+            <topic id="14" parent="13" guid="MH1oKV39NppYWykOSNy6lw" x="238.88" y="224.15" text="BlockCreditUnion"></topic>
+            <topic id="15" parent="13" guid="CC33dn7_KI5I5veEBr_4Dw" x="102.49" y="211.28" text="Automatrust"></topic>
+        </topics>
+        <relations></relations>
+    </mindmap>
+</simplemind-mindmaps>

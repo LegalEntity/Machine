@@ -1,0 +1,16 @@
+﻿EncapsulatedEntireEnterprise
+	Existing Products and Services
+		AutoMate™
+		Docker
+	Standards
+		OMG-BPM-Plus
+		XBRL
+	Law and Policy
+		GPEA
+		SEC-XBRL
+	Allies and Advocates
+		DAOhub?
+		Tim Hwang?
+	Automated Credit Union
+		BlockCreditUnion
+		Automatrust

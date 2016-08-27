@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="1.0">
+    <head>
+        <title>EncapsulatedEntireEnterprise</title>
+    </head>
+    <body>
+        <outline text=" EncapsulatedEntireEnterprise">
+            <outline text="Existing Products
+and Services">
+                <outline text="AutoMate™ "></outline>
+                <outline text="Docker"></outline>
+            </outline>
+            <outline text="Standards">
+                <outline text="OMG-BPM-Plus"></outline>
+                <outline text="XBRL"></outline>
+            </outline>
+            <outline text="Law and Policy">
+                <outline text="GPEA"></outline>
+                <outline text="SEC-XBRL"></outline>
+            </outline>
+            <outline text="Allies and Advocates">
+                <outline text="DAOhub?"></outline>
+                <outline text="Tim Hwang?"></outline>
+            </outline>
+            <outline text="Automated Credit Union">
+                <outline text="BlockCreditUnion"></outline>
+                <outline text="Automatrust"></outline>
+            </outline>
+        </outline>
+    </body>
+</opml>
