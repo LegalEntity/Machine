@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<dspl xmlns="http://schemas.google.com/dspl/2010" xmlns:entity="http://www.google.com/publicdata/dataset/google/entity" xmlns:geo="http://www.google.com/publicdata/dataset/google/geo" xmlns:geo_us="http://www.google.com/publicdata/dataset/google/geo/us" xmlns:quantity="http://www.google.com/publicdata/dataset/google/quantity" xmlns:time="http://www.google.com/publicdata/dataset/google/time" xmlns:unit="http://www.google.com/publicdata/dataset/google/unit">
+  <import namespace="http://www.google.com/publicdata/dataset/google/entity"/>
+  <import namespace="http://www.google.com/publicdata/dataset/google/geo"/>
+  <import namespace="http://www.google.com/publicdata/dataset/google/geo/us"/>
+  <import namespace="http://www.google.com/publicdata/dataset/google/quantity"/>
+  <import namespace="http://www.google.com/publicdata/dataset/google/time"/>
+  <import namespace="http://www.google.com/publicdata/dataset/google/unit"/>
+
+  <!-- Tabularized by Ray Campbell and formatted in DSPL for publication on Google Public Data Explorer. -->
+
+  <info>
+    <name>
+      <value xml:lang="en">law.mit.edu Uniform Law Commision Adoption Data</value>
+    </name>
+    <description>
+      <value xml:lang="en">Year of adoption by state of the different uniform laws proposed by the Uniform Law Commission. NOTE: this data is unvalidated and known to be slightly innaccurate; it is intended to be used for exploratory analysis.</value>
+    </description>
+    <url>
+      <value xml:lang="en">https://github.com/HumanDynamics/FreeLaw</value>
+    </url>
+  </info>
+  <provider>
+    <name>
+      <value xml:lang="en">Computational Law Research Team, MIT Human Dynamics Lab</value>
+    </name>
+    <url>
+        <value xml:lang="en">law.mit.edu</value>
+    </url>
+  </provider>
+  <concepts>
+    <concept id="State">
+      <info>
+        <name>
+          <value xml:lang="en">State</value>
+        </name>
+        <description>
+          <value xml:lang="en">The state the Uniform Law was enacted in.</value>
+        </description>
+      </info>
+      <type ref="string"/>
+      <table ref="State_table"/>
+    </concept>
+    <concept id="ActName">
+      <info>
+        <name>
+          <value xml:lang="en">Act Name</value>
+        </name>
+        <description>
+          <value xml:lang="en">The name of the Uniform Law.</value>
+        </description>
+      </info>
+      <type ref="string"/>
+      <table ref="ActName_table"/>
+    </concept>
+    <concept id="Category">
+      <info>
+        <name>
+          <value xml:lang="en">Category</value>
+        </name>
+        <description>
+          <value xml:lang="en">Area of law affected by the Uniform Law.</value>
+        </description>
+      </info>
+      <type ref="string"/>
+      <table ref="Category_table"/>
+    </concept>
+    <concept id="Promulgated">
+      <info>
+        <name>
+          <!-- What does "Promulgated" mean? I dunno. Title the column "Proposed" instead; we'll still call it "Promulgated" internally. -->
+          <value xml:lang="en">Proposed</value>
+        </name>
+        <description>
+          <value xml:lang="en">The year the Uniform Law was promulgated by the Uniform Law Commission and recommended to the states for adoption.</value>
+        </description>
+      </info>
+      <type ref="date"/>
+    </concept>
+    <concept id="Enacted">
+      <info>
+        <name>
+          <value xml:lang="en">Enacted</value>
+        </name>
+        <description>
+          <value xml:lang="en">The year a state adopted a Uniform Law through legislation.</value>
+        </description>
+      </info>
+      <type ref="date"/>
+    </concept>
+  </concepts>
+  <slices>
+    <slice id="main_data_slice">
+      <dimension concept="State"/>
+      <dimension concept="ActName"/>
+      <dimension concept="Category"/>
+      <dimension concept="time:Promulgated"/>
+      <dimension concept="time:Enacted"/>
+      <metric concept="Promulgated"/>
+      <metric concept="Enacted"/>
+      <table ref="main_data_slice_table"/>
+    </slice>
+  </slices>
+  <tables>
+    <table id="State_table">
+      <column id="State" type="string"/>
+      <data>
+        <file encoding="utf-8" format="csv">State_table.csv</file>
+      </data>
+    </table>
+    <table id="ActName_table">
+      <column id="ActName" type="string"/>
+      <data>
+        <file encoding="utf-8" format="csv">ActName_table.csv</file>
+      </data>
+    </table>
+    <table id="Category_table">
+      <column id="Category" type="string"/>
+      <data>
+        <file encoding="utf-8" format="csv">Category_table.csv</file>
+      </data>
+    </table>
+    <table id="main_data_slice_table">
+      <column id="State" type="string"/>
+      <column id="ActName" type="string"/>
+      <column id="Category" type="string"/>
+      <column id="Promulgated" type="date" format="yyyy"/>
+      <column id="Enacted" type="date" format="yyyy"/>
+      <data>
+        <file encoding="utf-8" format="csv">main_data_slice.csv</file>
+      </data>
+    </table>
+  </tables>
+</dspl>

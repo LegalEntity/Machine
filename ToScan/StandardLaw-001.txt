@@ -1,0 +1,39 @@
+ULC Does Uniform Law and that is more needed now than ever. Not only for content but particularly for process. 
+
+# Standard Law Roadmap 
+## public connection infrastructure
+high level architecture and roadmap 
+ (bus, platform, network, infrastructure...)
+
+* public content interface 
+ - for publishing the law and primary legal content
+- Standards are needed now for the format, syntax & structure of the content 
+- versioning and authentication of official source 
+
+* public communications interface for:
+  - comment (questions, opinions) 
+  - contribution (errors, proposals) 
+  - compliance (data feeds, transactions)
+
+- Natural person narrative language oriented Standards needed for naming, citing, point-based, object-based, range-based (array / collection based?) referencing and direct support for discoverable annotating  about the content
+
+- Device/software oriented Machine readable communications standards for 
+ -- pub/sub and network "listeners" (for event based triggers) supporting distributed official 
+-- integration of transclusion of authoritative source (GAAP Codification)
+
+* Public computation interface 
+ - basic exploration (PubDataExplorer/SIMILE)
+ - simulations of current and Bills or NPRM regs based on algorithmic law success metrics and test harness 
+ - advanced/not supported complex modeling and data science
+** one day for new field of legal informatics & jurimetric analytics
+
+-----
+Draft 1
+
+Standards are needed now for the:
+* format, syntax & structure of the content 
+* naming, cross-referencing and annotating and about the content
+* citation and 
+*  versioning and authentication 
+* integration of transclusion of authoritative source (GAAP Codification)
+* pub/sub and network "listeners" (for event based triggers) supporting distributed official
