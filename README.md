@@ -14,9 +14,9 @@ The entity is "fully automated" when an integrated code base correctly and compl
 A fully automated entity is also "autonomous" when it validly conducts all actions of the entity without human review, approval or other explicit action.  
 
 ## About the Legal Entity Machine Project:
-
-* Project Site: http://legalentity.us & http://legalentity.github.io/Machine
 * Project Wiki: https://github.com/LegalEntity/Machine/wiki/Important-Links-and-Resources
+* Project Site: http://legalentity.us & http://legalentity.github.io/Machine
+
 
 ## Potential Alternative Project Names:
 
