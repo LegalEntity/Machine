@@ -5,7 +5,7 @@
 
 ## What is an Automated Legal Entity?
 
-A business (or governmental, non-profit or other for-profit) entity is automated when software successfully conducts the core business transactions of the entity and takes all routine actions necessary to maintain the legal status of the entity. 
+A business (or government, non-profit or other for-profit) entity is automated when software successfully conducts the core business transactions of the entity and takes all routine actions necessary to maintain the legal status of the entity. 
 
 For example, an automated commercial business entity may be operate through software that initiates, responds to and completes business transactions such as the purchase and sale of goods. The software would likewise take all routine actions necessary to validly complete business contracts and other transactions or needed to create, maintain and eventually dissolve the legal entity for which the softrware operated.   If neccessary as part of a transaction, for example, the software would file the approprite information with the relevant governmental agency necessary to give notice of a security interest in personal property to interested third parties under Article 9 of the Uniform Commercial Code. 
 
