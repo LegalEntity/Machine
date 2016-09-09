@@ -1,8 +1,7 @@
-# Legal Entity Automated Network Machine
-**The LEAN Machine**
 
-* http://legalentity.us
-* http://legalentity.github.io/Machine
+# The Legal Entity Machine 
+**An Open Source Project of <a href="http://law.mit.edu">law.MIT.edu</a>**
+
 
 ## What is an "Automated Legal Entity" Anyway?
 
@@ -14,7 +13,14 @@ The entity is "fully automated" when an integrated code base correctly and compl
 
 A fully automated entity is also "autonomous" when it validly conducts all actions of the entity without human review, approval or other explicit action.  
 
-## Potential Alternative Names:
+## About the Legal Entity Machine Project:
+
+* Project Site: http://legalentity.us & http://legalentity.github.io/Machine
+* Project Wiki: https://github.com/LegalEntity/Machine/wiki/Important-Links-and-Resources
+
+## Potential Alternative Project Names:
+
+* LEAN: **The LEAN Machine: Legal Entity Automated Network Machine** or
 * BLISS: **The BLISS Machine: Business Legal Integrated Service Systems** or
 * BLAST: **The BLAST Machine: Business Legal Automated Systems Technology** or 
 * NAMASTE: **Network Automated Machine Autonomous Systems Technology Entities** 
