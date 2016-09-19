@@ -1,5 +1,5 @@
 
-# The Legal Entity Machine 
+# The Business Entity Machine 
 **An Open Source Project of <a href="http://law.mit.edu">law.MIT.edu</a>**
 
 This is a project to build a working prototype of software that conducts the business transactions and maintains the legal status of, and operates through, a valid legal entity. A simple C-Corp or LLC are the anticipated target legal entity form to establish a proof of concept. The project will evaluate whether this goal is best accomplished through use of blockchain enabled automation and/or through a bunch of well orchestrated Microservices using an authoritative data source and operating on/through AWS, Azure, Rackspace, Cloud Foundry, etc or other approaches. The ultimate goal is to field secure, integrated and fully containerized open source code for a new federally chartered Credit Union, as a much more sophisticated legal entity type, in accord with chartering and other rules of the National Credit Union Administration (regulator).  
