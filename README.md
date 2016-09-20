@@ -25,6 +25,15 @@ During the Sept 15 - Oct 15 general time frame the plan is to push on creating a
 * Project Site: http://legalentity.us & http://legalentity.github.io/Machine
 * SBA Quad-Overview: https://github.com/LegalEntity/Machine/blob/gh-pages/sba.md
 
+### Other homes of parts of the project:
+
+* https://github.com/HumanDynamics/loan-hack
+* https://github.com/HumanDynamics/BlockCreditUnion
+* https://github.com/HumanDynamics/LegalEntity/wiki/Notional-Architectural-Approach
+* https://github.com/HumanDynamics/automatrust
+* https://law.mit.edu/automated-credit-union
+* http://computablelaw.org
+
 
 ## Potential Alternative Project Names:
 
