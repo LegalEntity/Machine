@@ -23,7 +23,7 @@ During the Sept 15 - Oct 15 general time frame the plan is to push on creating a
 ## About the Legal Entity Machine Project:
 * Project Wiki: https://github.com/LegalEntity/Machine/wiki/Important-Links-and-Resources
 * Project Site: http://legalentity.us & http://legalentity.github.io/Machine
-* SBA Quad-Overview: sba.md
+* SBA Quad-Overview: https://github.com/LegalEntity/Machine/blob/gh-pages/sba.md
 
 
 ## Potential Alternative Project Names:
